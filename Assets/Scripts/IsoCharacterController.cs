@@ -11,7 +11,7 @@ public class IsoCharacterController : MonoBehaviour
     //[SerializeField] float jumpSpeed = 10f;
     [SerializeField] Animator runAnim;
 
-    bool jump = false;
+    //bool jump = false;
 
     private Vector3 getInput;
 
@@ -75,7 +75,7 @@ public class IsoCharacterController : MonoBehaviour
         //acaba la leche y deja de saltar
         //Hardcodee como parche, era: float originalHeight = transform.position.y
         //float originalHeight = 0.7f;
-        float originalHeight = transform.position.y;
+        float originalHeight = 0.7f;
 
         jump = true;
         yield return null;

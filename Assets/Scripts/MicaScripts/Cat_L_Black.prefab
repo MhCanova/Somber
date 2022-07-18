@@ -1318,6 +1318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6204919415406511316}
   - component: {fileID: 2006159944949147328}
+  - component: {fileID: 8044240039846826364}
   - component: {fileID: 2006159944949147329}
   - component: {fileID: 2006159944949147389}
   m_Layer: 0
@@ -1360,6 +1361,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8044240039846826364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6726018264856174190}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc640a19ec4cb460f83bf4861c412689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2006159944949147328}
+  speed: 5
+  turnSpeed: 360
+  runAnim: {fileID: 0}
 --- !u!135 &2006159944949147329
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1388,7 +1405,6 @@ MonoBehaviour:
   speed: 2
   jump: {x: 0, y: 2, z: 0}
   jumpForce: 2
-  isGrounded: 0
 --- !u!1 &6873246168992360218
 GameObject:
   m_ObjectHideFlags: 0
