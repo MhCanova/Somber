@@ -4,26 +4,28 @@ using UnityEngine;
 
 public class IsoCharacterController : MonoBehaviour
 {
-    [SerializeField] private Rigidbody rb;
     [SerializeField] private float speed = 5;
     [SerializeField] private float turnSpeed = 360;
-    //[SerializeField] float jumpHeight = 10f;
-    //[SerializeField] float jumpSpeed = 10f;
     [SerializeField] Animator runAnim;
 
+<<<<<<< Updated upstream
     //bool jump = false;
+=======
+    Rigidbody rb;
+    bool jump = false;
+>>>>>>> Stashed changes
 
     private Vector3 getInput;
 
     private void Start() 
     {
-        runAnim = gameObject.GetComponent<Animator>();
+        runAnim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
     private void Update()
     {
         GatherInput();
-        Look();
-        //Jump();
+        Rotate();
     }
 
     private void FixedUpdate()
@@ -36,9 +38,10 @@ public class IsoCharacterController : MonoBehaviour
         getInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
     }
 
-    private void Look()
+    private void Rotate()
     {
-        if (getInput == Vector3.zero) return;
+        if (getInput == Vector3.zero)
+            return;
 
         var rot = Quaternion.LookRotation(getInput.ToIso(), Vector3.up);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rot, turnSpeed * Time.deltaTime);
@@ -58,6 +61,7 @@ public class IsoCharacterController : MonoBehaviour
         }
         
     }
+<<<<<<< Updated upstream
 
     /*public void Jump()
     {
@@ -91,6 +95,8 @@ public class IsoCharacterController : MonoBehaviour
 
         yield return null;
     }*/
+=======
+>>>>>>> Stashed changes
 }
 
 public static class Helpers

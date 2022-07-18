@@ -125,7 +125,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5383808632924122101}
   - component: {fileID: 5516008000316752681}
-  - component: {fileID: 4629579552846338579}
   - component: {fileID: 5194907163732962945}
   - component: {fileID: 900975779418812110}
   - component: {fileID: 286273398}
@@ -165,24 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc640a19ec4cb460f83bf4861c412689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 5194907163732962945}
   speed: 5
   turnSpeed: 280
+  jumpHeight: 10
+  jumpSpeed: 10
   runAnim: {fileID: 0}
---- !u!114 &4629579552846338579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7559035683396560563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eae1da090ba6d7e4ea6ff341099a0df7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpforce: 10
-  rb: {fileID: 5194907163732962945}
 --- !u!54 &5194907163732962945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -198,7 +184,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 1
   m_Constraints: 80
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!95 &900975779418812110
 Animator:
   serializedVersion: 4
