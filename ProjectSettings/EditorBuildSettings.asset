@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/TestPabli.unity
+    guid: 86ccc1fb0ca84e049b70a2008eab31bd
   m_configObjects: {}
