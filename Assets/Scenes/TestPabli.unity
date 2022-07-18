@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731689, g: 0.13414702, b: 0.1210784, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -573,6 +573,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3164637821058078672, guid: cc31a17a22090414b888b375cfd0e4ce,
+        type: 3}
+      propertyPath: near clip plane
+      value: -9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 3164637821058078672, guid: cc31a17a22090414b888b375cfd0e4ce,
+        type: 3}
+      propertyPath: orthographic size
+      value: 1.93
+      objectReference: {fileID: 0}
     - target: {fileID: 3164637821058078675, guid: cc31a17a22090414b888b375cfd0e4ce,
         type: 3}
       propertyPath: PlayerTransform
