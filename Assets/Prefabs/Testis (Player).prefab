@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 5516008000316752681}
   - component: {fileID: 5194907163732962945}
   - component: {fileID: 948345021156079298}
+  - component: {fileID: 900975779418812110}
   m_Layer: 3
   m_Name: Testis (Player)
   m_TagString: Player
@@ -198,6 +199,26 @@ CapsuleCollider:
   m_Height: 0.51561564
   m_Direction: 1
   m_Center: {x: 0, y: 0.26965293, z: 0.031317182}
+--- !u!95 &900975779418812110
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559035683396560563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2e05a747a6709c347be39ce67225f341, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1e6b8517cac5b6c428f98a7c12b395cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2769263657530909683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -545,7 +566,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5350764537477866884, guid: 842c650e107c0c842bd63593a83fdcc9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 842c650e107c0c842bd63593a83fdcc9, type: 3}
 --- !u!4 &7756716012809626001 stripped
 Transform:
