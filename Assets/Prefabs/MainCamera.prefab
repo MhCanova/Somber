@@ -142,7 +142,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 25
+    FieldOfView: 22
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -186,7 +186,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2831228583569818372}
-  m_LocalRotation: {x: 0.24626322, y: 0.49374354, z: -0.13576227, w: 0.8228854}
+  m_LocalRotation: {x: 0.24626553, y: 0.49374107, z: -0.13576104, w: 0.8228864}
   m_LocalPosition: {x: -16.627222, y: 5.5114417, z: -12.911434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -194,7 +194,7 @@ Transform:
   - {fileID: 2831228583493188944}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 32.64, y: 62.322, z: 1.344}
 --- !u!20 &2831228583569818368
 Camera:
   m_ObjectHideFlags: 0
@@ -220,7 +220,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 25
+  field of view: 22
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
