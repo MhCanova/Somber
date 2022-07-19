@@ -8,12 +8,9 @@ public class IsoCharacterController : MonoBehaviour
     [SerializeField] private float turnSpeed = 360;
     [SerializeField] Animator runAnim;
 
-<<<<<<< Updated upstream
-    //bool jump = false;
-=======
     Rigidbody rb;
+
     bool jump = false;
->>>>>>> Stashed changes
 
     private Vector3 getInput;
 
@@ -61,42 +58,6 @@ public class IsoCharacterController : MonoBehaviour
         }
         
     }
-<<<<<<< Updated upstream
-
-    /*public void Jump()
-    {
-        if (Input.GetKey(KeyCode.Space) && !jump)
-            StartCoroutine(Jumping());
-            
-        else
-            Move();
-    }
-
-    IEnumerator Jumping()
-    {
-
-        //Creo que el problema esta aca. Salta hasta que se le
-        //acaba la leche y deja de saltar
-        //Hardcodee como parche, era: float originalHeight = transform.position.y
-        //float originalHeight = 0.7f;
-        float originalHeight = 0.7f;
-
-        jump = true;
-        yield return null;
-
-        rb.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);
-
-        while (transform.position.y > originalHeight)
-        {
-            yield return null;
-        }
-
-        jump = false;
-
-        yield return null;
-    }*/
-=======
->>>>>>> Stashed changes
 }
 
 public static class Helpers
