@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 5968251905845519369}
   - component: {fileID: 5968251905845519368}
   - component: {fileID: 2343491224266410106}
-  - component: {fileID: 2343491224266410109}
+  - component: {fileID: 4273015685022199849}
   m_Layer: 0
   m_Name: Cucaracha 1
   m_TagString: Untagged
@@ -199,8 +199,8 @@ MonoBehaviour:
     m_Bits: 8
   player: {fileID: 0}
   movSpeed: 2
---- !u!135 &2343491224266410109
-SphereCollider:
+--- !u!65 &4273015685022199849
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -210,8 +210,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.01
-  m_Center: {x: 0, y: 0, z: 2}
+  m_Size: {x: 4.93, y: 9.31, z: 5.08}
+  m_Center: {x: 0, y: 0, z: 2.01}
 --- !u!1001 &5968251905347118705
 PrefabInstance:
   m_ObjectHideFlags: 0
