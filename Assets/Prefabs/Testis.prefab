@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &315239735
 Transform:
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.6300465, b: 0, a: 1}
   m_Intensity: 0.07
-  m_Range: 0.6
+  m_Range: 0.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -956,8 +956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc640a19ec4cb460f83bf4861c412689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  turnSpeed: 350
+  speed: 4
+  turnSpeed: 320
   runAnim: {fileID: 0}
 --- !u!135 &499890194338309581
 SphereCollider:
