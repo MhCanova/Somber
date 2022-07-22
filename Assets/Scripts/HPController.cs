@@ -11,6 +11,7 @@ public class HPController : MonoBehaviour
     private void Start()
     {
         UpdateHP();
+        
     }
 
     public void UpdateHP()
@@ -18,8 +19,7 @@ public class HPController : MonoBehaviour
 
         if (playerHP <= 0)
         {
-            //Esto hay que cambiarlo a algo real cuando salga de test
-            SceneManager.LoadScene("TestPabli");
+            ReloadLevel();
         }
             
 
@@ -34,5 +34,11 @@ public class HPController : MonoBehaviour
                 hearts[i].color = Color.black;
             }
         }
+    }
+
+    public void ReloadLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }

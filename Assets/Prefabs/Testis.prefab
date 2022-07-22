@@ -1038,9 +1038,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7164962076461bd46b2e118474ed9902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoadDelay: 1.5
+  levelLoadDelay: 1
   sucessParticles: {fileID: 7060645512580209910}
   crashParticles: {fileID: 7006226890103899875}
+  hpManager: {fileID: 0}
+  Damage: 1
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerHP: 7
 --- !u!1 &4738863492760428455
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,36 +1,38 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class LoadLevel : MonoBehaviour
 {
     [SerializeField] float levelLoadDelay = 1.5f;
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
+    [SerializeField] private HPController hpManager;
+    [SerializeField] private int Damage;
 
-    bool isTransitioning = false;
-    bool collisionDisabled = false;
+    [SerializeField] Image[] hearts;
 
+    public int playerHP;
+    
     void OnCollisionEnter(Collision other) 
-    {
-        if (isTransitioning || collisionDisabled) { return; }
-        
+    {   
         switch(other.gameObject.tag)
         {
-            case "Enemy":
+            case "Obstacles":
                 StartCrashSequence();
                 break;
             case "Finish":
                 StartSuccessSequence();
                 break;
             default:
-                Debug.Log("This thing is friendly");
                 break;
         }
     }
 
     void StartSuccessSequence()
     {
-        isTransitioning = true;
+
         //audioSource.Stop();
         //audioSource.PlayOneShot(sucess);
         sucessParticles.Play();
@@ -40,12 +42,11 @@ public class LoadLevel : MonoBehaviour
 
     void StartCrashSequence()
 {
-    isTransitioning = true;
+
     //audioSource.Stop();
     //audioSource.PlayOneShot(crash);
     crashParticles.Play();
-    GetComponent<IsoCharacterController>().enabled = false;
-    Invoke("ReloadLevel", levelLoadDelay);
+    DamageDealer();
 }
 
 void LoadNextLevel()
@@ -59,9 +60,16 @@ void LoadNextLevel()
         SceneManager.LoadScene(nextSceneIndex);
     }
 
-    void ReloadLevel()
+    void DamageDealer()
+    {
+        hpManager.playerHP = hpManager.playerHP - Damage;
+        hpManager.UpdateHP();
+    }
+
+        public void ReloadLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        GetComponent<IsoCharacterController>().enabled = false;
         SceneManager.LoadScene(currentSceneIndex);
     }
 }

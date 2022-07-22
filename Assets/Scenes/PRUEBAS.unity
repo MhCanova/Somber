@@ -3179,6 +3179,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HPCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2979588119364460767, guid: 8752381a316ad42a5ba7c9103b76248e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8752381a316ad42a5ba7c9103b76248e, type: 3}
 --- !u!1001 &587067169
@@ -4222,6 +4227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HPControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117579073616947555, guid: bf238ea0722154c94b1477a814f9b135,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7117579073616947557, guid: bf238ea0722154c94b1477a814f9b135,
         type: 3}
@@ -10798,6 +10808,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6201628913601114954, guid: 9910955cd01972446b093d45438f4972,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e88ae270218c54d7fb14b3290754d625,
+        type: 2}
     - target: {fileID: 8379368358999092007, guid: 9910955cd01972446b093d45438f4972,
         type: 3}
       propertyPath: m_RootOrder
@@ -11511,6 +11527,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShowerTable_01
       objectReference: {fileID: 0}
+    - target: {fileID: 9207733789299207047, guid: f6736486235cfd24c82b65da71daf9b3,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e88ae270218c54d7fb14b3290754d625,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6736486235cfd24c82b65da71daf9b3, type: 3}
 --- !u!4 &4894667811866364034 stripped
