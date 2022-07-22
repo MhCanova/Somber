@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5621634084296342494}
   m_Layer: 0
   m_Name: Slippers
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5965380667141150672}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.686125, y: 0.16330782, z: 1.4164996}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
@@ -59,9 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e11cb44d3cf4ef49aa1d0ddf60c7447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {x: 0, y: 0, z: 0}
-  endPosition: {x: 0, y: 0, z: 0}
-  speed: 0
+  startingPosition: {x: 11.58001, y: 7.17, z: -3.649991}
+  endPosition: {x: 11.58001, y: 0.18, z: -3.64999}
+  speed: 0.8
 --- !u!1 &5965380667141150674
 GameObject:
   m_ObjectHideFlags: 0

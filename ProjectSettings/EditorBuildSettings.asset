@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Nivel1.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/PRUEBAS.unity
+    guid: aa8528ab7f245e7458efa3fd310bdbfd
   - enabled: 1
-    path: Assets/Scenes/TestPabli.unity
-    guid: 86ccc1fb0ca84e049b70a2008eab31bd
+    path: Assets/Scenes/LevelBath.unity
+    guid: 1a5ec1770a2b5614cb40ef070236a782
   m_configObjects: {}

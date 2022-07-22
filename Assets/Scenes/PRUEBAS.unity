@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.019692864, g: 0.01703217, b: 0.020990495, a: 1}
+  m_IndirectSpecularColor: {r: 0.019337412, g: 0.017021678, b: 0.020592488, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5308,6 +5308,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2831228583493188944, guid: 7b1f7229e12844836a0228de90cc20e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831228583493188944, guid: 7b1f7229e12844836a0228de90cc20e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831228583493188944, guid: 7b1f7229e12844836a0228de90cc20e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2831228583493188945, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_Follow
@@ -5331,12 +5346,12 @@ PrefabInstance:
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5135865
+      value: 5.513587
       objectReference: {fileID: 0}
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4314609
+      value: -2.4314606
       objectReference: {fileID: 0}
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
@@ -10656,10 +10671,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3051025905996848301, guid: 798314ebc5fd4514a885bee2a3f88fca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 3051025905996848303, guid: 798314ebc5fd4514a885bee2a3f88fca,
         type: 3}
       propertyPath: m_Name
       value: Bed1_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051025905996848303, guid: 798314ebc5fd4514a885bee2a3f88fca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
