@@ -5,15 +5,22 @@ using UnityEngine.UI;
 
 public class LoadLevel : MonoBehaviour
 {
-    [SerializeField] float levelLoadDelay = 1.5f;
+    
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
     [SerializeField] private HPController hpManager;
-    [SerializeField] private int Damage;
-
-    [SerializeField] Image[] hearts;
+    [SerializeField] private int DamageReceived;
+    [SerializeField] AudioClip success;
+    [SerializeField] AudioClip crash;
 
     public int playerHP;
+    float levelLoadDelay = 1.5f;
+    AudioSource audioSource;
+
+    void Start() 
+    {
+       audioSource = GetComponent<AudioSource>();
+    }
     
     void OnCollisionEnter(Collision other) 
     {   
@@ -34,7 +41,7 @@ public class LoadLevel : MonoBehaviour
     {
 
         //audioSource.Stop();
-        //audioSource.PlayOneShot(sucess);
+        audioSource.PlayOneShot(success);
         sucessParticles.Play();
         GetComponent<IsoCharacterController>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
@@ -44,7 +51,7 @@ public class LoadLevel : MonoBehaviour
 {
 
     //audioSource.Stop();
-    //audioSource.PlayOneShot(crash);
+    audioSource.PlayOneShot(crash);
     crashParticles.Play();
     DamageDealer();
 }
@@ -62,7 +69,7 @@ void LoadNextLevel()
 
     void DamageDealer()
     {
-        hpManager.playerHP = hpManager.playerHP - Damage;
+        hpManager.playerHP = hpManager.playerHP - DamageReceived;
         hpManager.UpdateHP();
     }
 
