@@ -10,6 +10,13 @@ public class SpeedUP : PowerUP
 
     public override void ApplyPowerUp(GameObject target)
     {
-        target.GetComponent<IsoCharacterController>().speed += addSpeed;
+        if (target.tag == "Player")
+        {
+            target.GetComponent<IsoCharacterController>().speed += addSpeed;
+        }
+        else
+        {
+            return;
+        }
     }
 }

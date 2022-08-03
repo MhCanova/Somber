@@ -10,6 +10,13 @@ public class RotateUP : PowerUP
 
     public override void ApplyPowerUp(GameObject target)
     {
-        target.GetComponent<IsoCharacterController>().turnSpeed += addRotSpeed;
+        if (target.tag == "Player")
+        {
+            target.GetComponent<IsoCharacterController>().turnSpeed += addRotSpeed;
+        }
+        else
+        {
+            return;
+        }
     }
 }
