@@ -4,14 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class HPController : MonoBehaviour
 {
-    public int playerHP;
+    public int playerHP = 7;
 
     [SerializeField] Image[] hearts;
 
-    private void Start()
+    public void Start()
     {
         UpdateHP();
-        
     }
 
     public void UpdateHP()

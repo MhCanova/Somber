@@ -8,11 +8,11 @@ public class LoadLevel : MonoBehaviour
     
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
-    [SerializeField] private HPController hpManager;
     [SerializeField] private int DamageReceived;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
 
+    public HPController hpManager;
     public int playerHP;
     float levelLoadDelay = 1.5f;
     AudioSource audioSource;

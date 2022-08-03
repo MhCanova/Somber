@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class IsoCharacterController : MonoBehaviour
 {
-    [SerializeField] private float speed = 5;
-    [SerializeField] private float turnSpeed = 360;
+    [SerializeField] public float speed = 5;
+    [SerializeField] public float turnSpeed = 360;
     [SerializeField] Animator runAnim;
 
     Rigidbody rb;
-
-    bool jump = false;
 
     private Vector3 getInput;
 

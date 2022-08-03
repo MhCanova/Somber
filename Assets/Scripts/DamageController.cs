@@ -11,6 +11,12 @@ public class DamageController : MonoBehaviour
     [SerializeField] float deathDelay = 1f;
 
 
+    protected virtual void Intro()
+
+    {
+        Debug.Log("Te pego objeto corriente de casa.");
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,6 +24,7 @@ public class DamageController : MonoBehaviour
         {
             bugExplosion.Play();
             DamageDealer();
+            Intro();
         }
     }
 
@@ -33,7 +40,7 @@ public class DamageController : MonoBehaviour
 
     }
 
-    void EnemyEraser()
+    protected virtual void EnemyEraser()
     {
         
         Destroy(gameObject);
