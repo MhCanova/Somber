@@ -24,4 +24,6 @@ public class MenuStart : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+
+
 }
