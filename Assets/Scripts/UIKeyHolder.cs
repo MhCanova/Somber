@@ -34,6 +34,7 @@ public class UIKeyHolder : MonoBehaviour
         {
             if (child == keyTemplate) continue;
             Destroy(child.gameObject);
+            keyTemplate.gameObject.SetActive(false);
         }
 
         //Instancia llaves nuevas.
@@ -50,8 +51,6 @@ public class UIKeyHolder : MonoBehaviour
             {
                 default:
                 case Key.KeyType.Orange:keyImage.color = Color.clear; break;
-                case Key.KeyType.Gold: keyImage.color = Color.clear; break;
-                case Key.KeyType.White: keyImage.color = Color.clear; break;
             }
         }
     }
