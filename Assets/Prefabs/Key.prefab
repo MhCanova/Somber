@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5634532462982891454}
   - component: {fileID: 2093443782267337543}
   - component: {fileID: 7256765277679402604}
+  - component: {fileID: 610710713109368809}
   - component: {fileID: 7237012690771847895}
   m_Layer: 0
   m_Name: Key
@@ -98,6 +99,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyType: 0
+--- !u!114 &610710713109368809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374289202576707483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd26bc1eb4ba4cb797f752f4d82b703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 50
 --- !u!136 &7237012690771847895
 CapsuleCollider:
   m_ObjectHideFlags: 0
