@@ -904,6 +904,7 @@ GameObject:
   - component: {fileID: 8258010855786451568}
   - component: {fileID: 1362601440}
   - component: {fileID: 2203687431740799601}
+  - component: {fileID: 8440525477239232048}
   - component: {fileID: 5339691043876186684}
   m_Layer: 3
   m_Name: Testis
@@ -1041,11 +1042,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sucessParticles: {fileID: 7060645512580209910}
   crashParticles: {fileID: 7006226890103899875}
-  hpManager: {fileID: 0}
   DamageReceived: 1
   success: {fileID: 8300000, guid: a88f202503587e447a3a534724d73b28, type: 3}
   crash: {fileID: 8300000, guid: 12d41bc63c24dee4fa5c296d1aca2d5d, type: 3}
+  hpManager: {fileID: 0}
   playerHP: 7
+--- !u!114 &8440525477239232048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4642970788397931874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50c6f8aee6a440e29e392b2c8259f03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &5339691043876186684
 AudioSource:
   m_ObjectHideFlags: 0
