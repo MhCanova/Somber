@@ -94,6 +94,8 @@ GameObject:
   - component: {fileID: 3799629894067610634}
   - component: {fileID: 5449351085438984625}
   - component: {fileID: 6961741983864314893}
+  - component: {fileID: 1287768882915618420}
+  - component: {fileID: 1287768882915618419}
   m_Layer: 0
   m_Name: Sandwich
   m_TagString: Platform
@@ -139,9 +141,35 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3799629894067779626}
-  m_Material: {fileID: 13400000, guid: 64be4e34fdfdc514ca487c34c85fdbf9, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1949501, y: 0.05293603, z: 0.20332555}
   m_Center: {x: 0.0013312906, y: 0.039916065, z: -0.0044931173}
+--- !u!65 &1287768882915618420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3799629894067779626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1949501, y: -0.04, z: 0.20332555}
+  m_Center: {x: 0.0013312906, y: 0.08, z: -0.0044931173}
+--- !u!114 &1287768882915618419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3799629894067779626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5393b712d7da7e4ca0b01ff07deb1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
