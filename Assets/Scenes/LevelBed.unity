@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.019337412, g: 0.017021678, b: 0.020592488, a: 1}
+  m_IndirectSpecularColor: {r: 0.019692864, g: 0.01703217, b: 0.020990495, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 185e908ae9d7b47c2bf5fdef272fb1dc,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -5207,7 +5208,7 @@ PrefabInstance:
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5671906
+      value: -4.5671916
       objectReference: {fileID: 0}
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
@@ -5217,7 +5218,7 @@ PrefabInstance:
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.3685403
+      value: 7.36854
       objectReference: {fileID: 0}
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
@@ -6104,40 +6105,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 18746628}
     m_Modifications:
-    - target: {fileID: 1377822056719186067, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.2444718
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377822056719186067, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3377234
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377822056719186067, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 26.2796
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377822056719186067, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377822056719186067, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 1527791189408739016, guid: f858139ff63e34ae28153540b2daa2dc,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527791189408739016, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.6613472
       objectReference: {fileID: 0}
     - target: {fileID: 1527791189408739016, guid: f858139ff63e34ae28153540b2daa2dc,
         type: 3}
@@ -6193,46 +6164,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gate (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527791189408739023, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 1.559606
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527791189408739023, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 1.3890907e-14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1527791189408739023, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.041949295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361762485954383936, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 10.514177
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361762485954383936, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 5.254249
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361762485954383936, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 25.182673
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361762485954383936, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 2.2083328
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361762485954383936, guid: f858139ff63e34ae28153540b2daa2dc,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0.007627765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f858139ff63e34ae28153540b2daa2dc, type: 3}
