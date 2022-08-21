@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  turnSpeed: 600
+  turnSpeed: 700
   runAnim: {fileID: 0}
 --- !u!114 &1362601440
 MonoBehaviour:
@@ -1059,6 +1059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50c6f8aee6a440e29e392b2c8259f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  getKeySFX: {fileID: 8300000, guid: dde15e73b3324467e8831a90e03f1c2b, type: 3}
+  popGateSFX: {fileID: 8300000, guid: 8c8281758f6b54266a4bf296e31e9648, type: 3}
 --- !u!82 &5339691043876186684
 AudioSource:
   m_ObjectHideFlags: 0

@@ -9,9 +9,19 @@ public class KeyHolder : MonoBehaviour
 
     private List<Key.KeyType> keyList;
 
+    [SerializeField] AudioClip getKeySFX;
+    [SerializeField] AudioClip popGateSFX;
+
+    AudioSource audioSource;
+
     private void Awake()
     {
         keyList = new List<Key.KeyType>();
+    }
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
     }
 
     public List<Key.KeyType> GetKeyList()
@@ -21,7 +31,6 @@ public class KeyHolder : MonoBehaviour
 
     public void AddKey(Key.KeyType keyType)
     {
-        Debug.Log("Added key" + keyType);
         keyList.Add(keyType);
         OnKeysChanged?.Invoke(this, EventArgs.Empty);
     }
@@ -42,6 +51,7 @@ public class KeyHolder : MonoBehaviour
         Key key = collider.GetComponent<Key>();
         if (key != null)
         {
+            audioSource.PlayOneShot(getKeySFX);
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
         }
@@ -51,6 +61,7 @@ public class KeyHolder : MonoBehaviour
         {
             if (HasKey(keyGate.GetKeyType()))
             {
+                audioSource.PlayOneShot(popGateSFX);
                 RemoveKey(keyGate.GetKeyType());
                 keyGate.OpenGate();
             }

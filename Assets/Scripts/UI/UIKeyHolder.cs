@@ -44,7 +44,7 @@ public class UIKeyHolder : MonoBehaviour
             Key.KeyType keyType = keyList[i];
             Transform keytransform = Instantiate(keyTemplate, container);
             keyTemplate.gameObject.SetActive(true);
-            keytransform.GetComponent<RectTransform>().anchoredPosition = new Vector2(50 * i, 0);
+            keytransform.GetComponent<RectTransform>().anchoredPosition = new Vector2(-125 * i, 0);
             Image keyImage = keytransform.Find("image").GetComponent<Image>();
 
             switch (keyType)
