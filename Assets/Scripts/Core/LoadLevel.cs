@@ -1,3 +1,4 @@
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class LoadLevel : MonoBehaviour
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
 
+    CinemachineImpulseSource impulse;
     public HPController hpManager;
     public int playerHP;
     float levelLoadDelay = 1.5f;
@@ -20,6 +22,7 @@ public class LoadLevel : MonoBehaviour
     void Start() 
     {
        audioSource = GetComponent<AudioSource>();
+       impulse = transform.GetComponent<CinemachineImpulseSource>();
     }
     
     void OnCollisionEnter(Collision other) 
@@ -47,10 +50,14 @@ public class LoadLevel : MonoBehaviour
         Invoke("LoadNextLevel", levelLoadDelay);
     }
 
+    void Shake()
+    {
+        impulse.GenerateImpulse();
+    }
+
     void StartCrashSequence()
 {
-
-    //audioSource.Stop();
+    Invoke("Shake", 0f);
     audioSource.PlayOneShot(crash);
     crashParticles.Play();
     DamageDealer();

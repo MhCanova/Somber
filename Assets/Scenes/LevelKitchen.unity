@@ -7063,7 +7063,7 @@ PrefabInstance:
     - target: {fileID: 8873101793603544089, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
         type: 3}
       propertyPath: endPosition.y
-      value: 0.5
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 8873101793603544089, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
         type: 3}
