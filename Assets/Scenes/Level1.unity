@@ -952,11 +952,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 495988184}
     m_Modifications:
-    - target: {fileID: 1009616881463266731, guid: 33d227763b34343218ce725e5a941f6a,
-        type: 3}
-      propertyPath: m_text
-      value: Go to sleep.
-      objectReference: {fileID: 0}
     - target: {fileID: 1009616882010285890, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
       propertyPath: m_RootOrder
@@ -4895,6 +4890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2831228583569818374, guid: 7b1f7229e12844836a0228de90cc20e8,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b1f7229e12844836a0228de90cc20e8, type: 3}

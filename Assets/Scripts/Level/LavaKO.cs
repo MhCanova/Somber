@@ -23,7 +23,7 @@ public class LavaKO : MonoBehaviour
 
     IEnumerator lavaKOED()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
