@@ -43,8 +43,6 @@ public class LoadLevel : MonoBehaviour
 
     void StartSuccessSequence()
     {
-
-        //audioSource.Stop();
         audioSource.PlayOneShot(success);
         sucessParticles.Play();
         GetComponent<IsoCharacterController>().enabled = false;
