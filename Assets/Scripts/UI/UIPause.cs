@@ -15,12 +15,12 @@ public class UIPause : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
+        if (Input.GetKeyDown(KeyCode.P) && isPaused == false)
         {
             isPaused = true;
             PauseGame();
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && isPaused == true)
+        else if (Input.GetKeyDown(KeyCode.P) && isPaused == true)
         {
             isPaused = false;
             ContinueGame();
