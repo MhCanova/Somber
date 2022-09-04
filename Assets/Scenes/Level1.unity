@@ -431,7 +431,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1580,7 +1580,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2040,7 +2040,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2241,7 +2241,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4096,6 +4096,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd,
         type: 2}
+    - target: {fileID: 5415784522863861988, guid: 81148269c519d644b97611126a39d8eb,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
       propertyPath: m_RootOrder
@@ -4706,7 +4711,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5127,7 +5132,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8908,6 +8913,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3098713149267795678, guid: e1b11e95b146e1f4ca7049bc06e5fa3b,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1b11e95b146e1f4ca7049bc06e5fa3b, type: 3}
 --- !u!4 &3256540984471755615 stripped
@@ -9450,6 +9460,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd,
         type: 2}
+    - target: {fileID: 5415784522863861988, guid: 81148269c519d644b97611126a39d8eb,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
       propertyPath: m_RootOrder
@@ -9600,6 +9615,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd,
         type: 2}
+    - target: {fileID: 5415784522863861988, guid: 81148269c519d644b97611126a39d8eb,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
       propertyPath: m_RootOrder
@@ -9608,7 +9628,7 @@ PrefabInstance:
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.85
+      value: 11.517
       objectReference: {fileID: 0}
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
@@ -9618,7 +9638,7 @@ PrefabInstance:
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.83
+      value: 7.108
       objectReference: {fileID: 0}
     - target: {fileID: 8698471668402185291, guid: 81148269c519d644b97611126a39d8eb,
         type: 3}
@@ -9744,6 +9764,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 108321921}
     m_Modifications:
+    - target: {fileID: 439834652, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Range
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 439834652, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Intensity
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 439834652, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 763088649, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Range
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 763088649, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Intensity
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 763088649, guid: 798314ebc5fd4514a885bee2a3f88fca, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1106556628388628904, guid: 798314ebc5fd4514a885bee2a3f88fca,
         type: 3}
       propertyPath: m_Material
