@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.019692864, g: 0.01703217, b: 0.020990495, a: 1}
+  m_IndirectSpecularColor: {r: 0.1290426, g: 0.120723344, b: 0.13347918, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1154,6 +1154,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Notifications
       objectReference: {fileID: 0}
+    - target: {fileID: 1009616882010285891, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129423645098088995, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -772
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129423645098088995, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -772
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -590
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d227763b34343218ce725e5a941f6a, type: 3}
 --- !u!1001 &256435231
@@ -1803,6 +1828,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelFading
       objectReference: {fileID: 0}
+    - target: {fileID: 6623077058709156551, guid: e8a15fc4d3bbd4916a9a08b593ea7b78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a15fc4d3bbd4916a9a08b593ea7b78, type: 3}
 --- !u!4 &375383500 stripped
@@ -2102,6 +2132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Testis
       objectReference: {fileID: 0}
+    - target: {fileID: 4642970788397931874, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5414723104927188952, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: m_RootOrder
@@ -2156,6 +2191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8258010855786451568, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: jstick
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 852970190562253061, guid: 13b6b7ade60244918b843ec8692ef1a6, type: 3}
@@ -2679,17 +2719,17 @@ PrefabInstance:
     - target: {fileID: 2979588119364460755, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979588119364460755, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979588119364460755, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979588119364460755, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
@@ -6661,6 +6701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIPause
       objectReference: {fileID: 0}
+    - target: {fileID: 8201582820580690497, guid: 1bd3bb91866414f45ab2f941ff202a2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8201582820580690502, guid: 1bd3bb91866414f45ab2f941ff202a2a,
         type: 3}
       propertyPath: m_RootOrder
@@ -8030,6 +8075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UIQuit
+      objectReference: {fileID: 0}
+    - target: {fileID: 352446820782012706, guid: 0e24f8c407ab74c869b279470b6bbcc5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 352446820782012765, guid: 0e24f8c407ab74c869b279470b6bbcc5,
         type: 3}
@@ -10763,6 +10813,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SolNocturno
+      objectReference: {fileID: 0}
+    - target: {fileID: 8917108609146811809, guid: 199b7e84ea5bf1d48b3f45aa00d0dacb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8917108609146811811, guid: 199b7e84ea5bf1d48b3f45aa00d0dacb,
         type: 3}
