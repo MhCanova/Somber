@@ -94,5 +94,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Notification
       objectReference: {fileID: 0}
+    - target: {fileID: 1129423645098088995, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -685
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -685
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d227763b34343218ce725e5a941f6a, type: 3}
